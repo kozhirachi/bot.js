@@ -2,13 +2,9 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
- 
-
 client.on('ready', () => {
     console.log('I am ready!');
 });
-
- 
 
 client.on('message', message => {
     if (message.content === 'ping') {
@@ -16,7 +12,5 @@ client.on('message', message => {
        }
 
 });
-
- 
 
 client.login(process.env.Nzk1OTk2MzM1NTM4OTYyNDQy.X_RfWw.vlYaXoO4gJ9YB-NdcOZKHUuBiPo);
